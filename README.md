@@ -37,8 +37,18 @@ Este projeto consiste na criação de um caderno temático de estudos utilizando
 *   [10 práticas para proteger APIs - IBSEC](https://ibsec.com.br/10-praticas-para-proteger-apis/)
 *   [Melhores práticas de segurança de APIs - IBM Insights](https://www.ibm.com/br-pt/think/insights/api-security-best-practices)
 
+
 #### Fontes em Vídeo:
 *   [Dicas Práticas de Segurança](https://www.youtube.com/watch?v=6WZ6S-qmtqY)
 *   [Fundamentos da Segurança de APIs](https://www.youtube.com/watch?v=R-4_DbV1Su4&t=256s)
 *   [O que é segurança em APIs](https://www.youtube.com/watch?v=FsB_nRGdeLs)
 *   [Segurança no Desenvolvimento de APIs](https://www.youtube.com/watch?v=7oSEJ4BJhRo)
+
+---
+
+## 🧠 Engenharia de Prompts
+
+
+---
+
+## 📖 Miniguia de Estudo 
