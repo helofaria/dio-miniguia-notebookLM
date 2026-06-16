@@ -8,6 +8,7 @@ Este projeto consiste na criação de um caderno temático de estudos utilizando
 
 ## 📑 Curadoria de Fontes
 
+* **Fontes Iniciais**
 ### 🛠️ Introdução às APIs
 
 #### Fontes em Texto:
