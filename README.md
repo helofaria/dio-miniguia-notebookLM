@@ -8,7 +8,7 @@ Este projeto consiste na criação de um caderno temático de estudos utilizando
 
 ## 📑 Curadoria de Fontes
 
-### 🛠️ Módulo 1: Introdução às APIs
+### 🛠️ Introdução às APIs
 
 #### Fontes em Texto:
 *   [Introdução a APIs](https://experienceleague.adobe.com/pt-br/docs/platform-learn/data-collection/server-api/introduction)
@@ -26,7 +26,7 @@ Este projeto consiste na criação de um caderno temático de estudos utilizando
 
 ---
 
-### 🔒 Módulo 2: Proteção e Segurança de APIs
+### 🔒 Proteção e Segurança de APIs
 
 #### Fontes em Texto:
 *   [O que é segurança de API? - IBM](https://www.ibm.com/br-pt/think/topics/api-security)
