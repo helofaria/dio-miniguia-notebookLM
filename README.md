@@ -1,13 +1,12 @@
 # Miniguia de Introdução e Segurança de APIs com NotebookLM
 
-
-
+---
 ## 📌 Contexto e Objetivos:
 Este projeto consiste na criação de um caderno temático de estudos utilizando o NotebookLM. O objetivo principal é estruturar um material didático focado na **introdução às APIs e nas melhores práticas de segurança** para proteção de dados e sistemas.
 
 *   **Persona da IA:** Foi solicitado que a inteligência artificial assumisse a postura de um *educador especializado para ajudar em introdução e segurança de APIs*.
 ---
-<br>
+
 ## 📑 Curadoria de Fontes
 
 ### 🛠️ Módulo 1: Introdução às APIs
