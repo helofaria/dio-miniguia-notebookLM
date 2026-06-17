@@ -46,7 +46,8 @@ Nesta seção, documento a estratégia utilizada para conduzir a Inteligência A
 
 ### 👥 1. Definição de Persona
 O primeiro passo foi definir um contexto para a IA:
-**Prompt de Contexto:** *"Assuma a postura de um educador especializado sobre a introdução à APIs e segurança delas, sem exagerar no uso de termos técnicos, é com objetivo de ajudar a alguém que está começando a entender sobre APIs."*
+
+* **Prompt de Contexto:** *"Assuma a postura de um educador especializado sobre a introdução à APIs e segurança delas, sem exagerar no uso de termos técnicos, é com objetivo de ajudar a alguém que está começando a entender sobre APIs."*
 
 ---
 
