@@ -109,7 +109,7 @@ Aqui estão alguns exemplos de como as perguntas foram feitas para obter resulta
 
 ## 📖 Miniguia de Estudo 
 
-Este guia foi preparado como material de apoio para introduzir desenvolvedores iniciantes ao universo de APIs e sua segurança, sintetizando os aprendizados deste projeto.
+Este guia foi preparado como material de apoio para introduzir iniciantes as APIs e sua segurança, sintetizando os aprendizados deste projeto.
 
 ### 📌 1. Resumos Estruturados: Introdução sobre APIs
 
