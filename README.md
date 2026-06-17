@@ -1,7 +1,7 @@
 # Miniguia de Introdução e Segurança de APIs com NotebookLM
 
 ## 📌 Contexto e Objetivos:
-Este projeto consiste na criação de um caderno temático de estudos utilizando o NotebookLM. O objetivo principal é estruturar um material didático focado na **introdução às APIs e nas melhores práticas de segurança** para proteção de dados e sistemas.
+Este projeto consiste na criação de um caderno temático de estudos utilizando o NotebookLM. O objetivo principal é estruturar um material didático focado na **introdução às APIs e nas melhores práticas de segurança** para proteção de APIs.
 
 ---
 
@@ -42,17 +42,17 @@ Este projeto consiste na criação de um caderno temático de estudos utilizando
 
 ## 🧠 Engenharia de Prompts e "Cicatrizes"
 
-Nesta seção, documento a estratégia utilizada para conduzir a Inteligência Artificial e extrair as respostas mais técnicas e precisas com base nas fontes fornecidas.
+Nesta seção, documento a estratégia utilizada para conduzir a Inteligência Artificial e extrair as respostas mais precisas com base nas fontes fornecidas.
 
 ### 👥 1. Definição de Persona
 O primeiro passo foi definir um contexto para a IA:
-> **Prompt de Contexto:** *"Assuma a postura de um educador especializado sobre a introdução à APIs e segurança delas, sem exagerar no uso de termos técnicos, é com objetivo de ajudar a alguém que está começando a entender sobre APIs."*
+**Prompt de Contexto:** *"Assuma a postura de um educador especializado sobre a introdução à APIs e segurança delas, sem exagerar no uso de termos técnicos, é com objetivo de ajudar a alguém que está começando a entender sobre APIs."*
 
 ---
 
 ### 📥 2. Prompts
 
-Aqui estão alguns exemplos de como as perguntas foram feitas para obter resultados para uma introdução a APIs e Segurança e Proteção de APIs, evitando respostas rasas:
+Aqui estão alguns exemplos de como as perguntas foram feitas para obter resultados para uma introdução a APIs e Segurança e Proteção de APIs:
 
 #### 📤 Exemplos sobre uma Introdução a APIs 
 
