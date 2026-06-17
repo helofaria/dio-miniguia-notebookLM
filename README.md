@@ -102,8 +102,58 @@ Aqui estão alguns exemplos de como as perguntas foram feitas para obter resulta
 * **Solução:** Fiz um ajuste estratégico no contexto da persona da IA. Reformulei o prompt de contexto exigindo que ela adotasse uma postura de educadora focada em ensinar sem exagerar no uso de termos técnicos, é com objetivo de ajudar a alguém que está começando a entender sobre APIs.
 
 #### 2: Sobrecarga de Referências e Respostas repetitivas 
-* **Desafio:** No início, adicionei um volume grande de fontes (diversos textos, sites, vídeos do YouTube, etc). Isso causou uma sobrecarga de contexto na IA: senti que ela não estava utilizando todo o seu potencial, ignorava os insights dos vídeos e começou a dar respostas repetitivas ou muito semelhantes apenas com trocas de palavras para perguntas que eram diferentes.
+* **Desafio:** No início, adicionei um volume grande de fontes (diversos textos, sites, vídeos do YouTube, etc). Isso causou uma sobrecarga de contexto na IA percebi que ela não estava utilizando todo o seu potencial, ignorava os insights dos vídeos e começou a dar respostas repetitivas ou muito semelhantes apenas com trocas de palavras para perguntas que eram diferentes.
 * **Solução:**  Primeiro, fiz uma limpeza das fontes, mantendo apenas o conteúdo essencial para o aprendizado e se precisar com o tempo adicionar apenas com conteúdo focado. Segundo, passei a construir prompts mais incisivos, pedindo para a IA cruzar mídias diferentes de forma explícita. Isso ajudou com as respostas mais explicativas porém para o objetivo de ser para aprendizado não ajudou muito com os prompts precisarem ser mais elaborados só para utilizar mais referências.
 
+---
 
 ## 📖 Miniguia de Estudo 
+
+Este guia foi preparado como material de apoio para introduzir desenvolvedores iniciantes ao universo de APIs e sua segurança, sintetizando os aprendizados deste projeto.
+
+### 📌 1. Resumos Estruturados: Introdução sobre APIs
+
+#### O que é uma API e como ela funciona?
+Uma API (Interface de Programação de Aplicações) funciona como uma ponte ou um contrato que permite que diferentes sistemas e aplicativos de software se comuniquem e troquem informações de maneira padronizada. Imagine a analogia de um restaurante: o cliente (usuário) escolhe um prato no cardápio, mas não fala diretamente com o chef (servidor); ele faz o pedido ao garçom (API), que leva a solicitação à cozinha e traz a resposta (o prato pronto) de volta para a mesa.
+São fundamentais porque permitem que desenvolvedores utilizem funcionalidades complexas de terceiros como mapas do Google, pagamentos do PayPal ou previsões do tempo sem precisar criar tudo do zero. Além disso, elas funcionam como uma camada de segurança, ocultando os detalhes internos do sistema e expondo apenas o que é estritamente necessário para a integração.
+
+#### Os Verbos HTTP: Como a API conversa?
+Para que o "pedido" seja entendido, as APIs usam quatro comandos básicos que funcionam como ações no nosso dia a dia:
+* **GET (Ler):** É quando você quer apenas visualizar uma informação. (Ex: Abrir o feed do Instagram para ver as fotos).
+* **POST (Criar):** É quando você quer enviar uma informação nova. (Ex: Publicar uma foto nova ou cadastrar uma senha).
+* **PUT/PATCH (Editar):** É quando você quer alterar algo que já existe. (Ex: Corrigir a legenda de uma foto que você postou).
+* **DELETE (Excluir):** É quando você quer apagar uma informação do sistema. (Ex: Deletar uma postagem antiga).
+
+#### Organização dos Dados: JSON e XML
+Quando os sistemas trocam informações, eles precisam de uma linguagem comum para que ninguém se confunda. Hoje, as APIs usam principalmente duas estruturas:
+* **JSON (O padrão moderno):** É extremamente leve e parece uma lista de compras organizada por categorias. Ele usa chaves `{ }` e aspas `" "` para ligar um nome ao seu valor. Por ser simples e direto, é o formato favorito dos desenvolvedores atuais.
+* **XML (O padrão clássico):** É um formato mais antigo que funciona através de etiquetas, muito parecido com o HTML. Ele usa "tags" de abertura e fechamento (como `<nome>Caleb</nome>`) para envelopar a informação. É mais detalhado e formal, muito comum em sistemas de grandes empresas e bancos.
+
+#### Como proteger a sua API?
+* **Autenticação (Quem é você?):** É a chave da porta da frente. Antes de a API liberar qualquer dado, ela precisa ter certeza de quem está chamando. É aqui que entram os **Tokens (como o JWT)**, que funcionam como um crachá digital VIP: você se identifica uma vez, ganha o crachá e o apresenta toda vez que quiser entrar em uma sala.
+* **Autorização:** Mesmo que você tenha a chave da porta da frente (autenticação), você não pode mexer em tudo. Se você é um cliente comum, não pode entrar na sala do administrador. Segurança básica significa garantir que o Usuário A nunca consiga ver ou alterar os dados do Usuário B só de mudar um número na barra de endereço do navegador.
+* **Criptografia em Trânsito:** Quando a API envia os dados de volta para o usuário, essa informação viaja pela internet. Usar HTTPS garante que esses dados viajem criptografados e se tentarem interceptar o caminho, ele só vai ver códigos ilegíveis, protegendo senhas e dados sensíveis.
+
+---
+
+### 🗂️ 2. Glossário de Conceitos
+
+* **API (Application Programming Interface):** Interface que permite a comunicação padronizada entre diferentes aplicações.
+* **Endpoint:** A URL específica ou ponto de extremidade onde a API recebe as requisições.
+* **JSON (JavaScript Object Notation):** Formato de dados leve, baseado em chave-valor, sendo o padrão mais utilizado em APIs modernas.
+* **XML (Extensible Markup Language):** Formato baseado em tags (similar ao HTML), mais antigo e verboso, muito utilizado no protocolo SOAP.
+* **Documentação / OpenAPI(Swagger):** Padrão de mercado para documentar a estrutura, parâmetros e respostas de uma API.
+* **SQL Injection:** Vulnerabilidade onde comandos maliciosos são inseridos em campos de texto. Evita-se usando **consultas parametrizadas**.
+* **Códigos de Status:** Respostas do servidor divididas em classes (2xx Sucesso, 4xx Erro do Cliente, 5xx Erro do Servidor).
+* **Segurança Inicial:** A separação entre Autenticação e Autorização.
+  
+---
+
+### 📥 3. Prompts Reutilizáveis 
+
+Alguns prompts para usar no notebook para continuar praticando os conceitos sobre APIs:
+
+1.  > *"Dê um resumo breve sobre os métodos de requisição de APIs,e um exemplo sobre cada um deles."*
+2.  > *"Explique a diferença prática entre os formatos JSON e XML utilizando uma analogia simples do dia a dia."*
+3.  > *"Crie um quiz de 5 perguntas de múltipla escolha sobre verbos HTTP e códigos de status, apresentando as respostas justificadas no final."*
+4.  > *"Dê 5 dicas práticas e detalhadas de como implementar sua primeira API em Python"*
